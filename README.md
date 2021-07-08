@@ -24,7 +24,18 @@ Workflow:
 - You might want to commit here.
 - Push the current state to GitHub.
 - Go visit it in the browser. Should see R Markdown document and the associated HTML. The Rmd is quite readable. But the output is obviously not there. The md shows the output of the knitted document and looks good!. Note that we do not have a HTML as have editted the document to be a github_document as HTML is ugly.
-- Do some more work in the R Markdown file in RStudio. Save!
+- Do some more work in the R Markdown file in RStudio. 
+
+
+- Remember that:
+- If have this at start of the document then when the file is "knitted" it will always show the R code as well as the R output "{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)"
+-  To add a new chunk, press *Cmd+Option+I* (*Ctrl+Alt+I* on Windows), or click the *Insert* button at the top of this document, then select *R*. 
+-  A # means a new heading
+-  ** means bold
+-  * mean italic
+-  In both cases must have the stars at beginning and end of section you wish in bold or highlighted
+-  Use echo = FALSE if only want the OUTPUT and not the R code
+-  Then Save work!
 - You might want to commit here.
 - Now render the whole document via “Knit HTML.” Voilà!
 - You might want to commit here again.
