@@ -17,9 +17,15 @@ Workflow:
 - set up new git project as usual e.g. Launch RStudio in a Project that is a Git repo that is connected to an already made GitHub repo (you will need the URL for this).
 - open R Markdown file to work in: File > New File > R Markdown …
 - then SAVE the R markdown file. The filename should end in .Rmd or .rmd. Save it in the top-level of this RStudio project and Git repository, that is also current working directory.
+- Edit the R markdown file so that the YAML now says "Use output: github_document"
 - You might want to commit here.
-- Click on “Knit HTML” or do File > Knit Document. RStudio should display a preview of the resulting HTML. Also look at the file browser. You should see the R Markdown document, i.e. foo.Rmd AND the resulting HTML foo.html.
+- Click on “Knit HTML” or do File > Knit Document. RStudio should display a preview of the resulting HTML. Also look at the file browser. You should see the R Markdown document, i.e. documentname.Rmd AND the documentname.md. If have not edited the YAML "Use output:" section you will also have a resulting HTML documentname.html 
 - Congratulations, you’ve just made your first reproducible report with R Markdown.
 - You might want to commit here.
 - Push the current state to GitHub.
-- Go visit it in the browser. Should see R Markdown document and the associated HTML. The Rmd is quite readable. But the output is obviously not there. HTML is ugly.
+- Go visit it in the browser. Should see R Markdown document and the associated HTML. The Rmd is quite readable. But the output is obviously not there. The md shows the output of the knitted document and looks good!. Note that we do not have a HTML as have editted the document to be a github_document as HTML is ugly.
+- Do some more work in the R Markdown file in RStudio. Save!
+- You might want to commit here.
+- Now render the whole document via “Knit HTML.” Voilà!
+- You might want to commit here again.
+- Now Pull and Push.
