@@ -3,6 +3,7 @@ A "Hello World" test drive of R Markdown
 
 
 Using chapter 18 of https://happygitwithr.com/rmd-test-drive.html
+
 Here is the official R Markdown documentation: http://rmarkdown.rstudio.com
 
 
@@ -20,3 +21,5 @@ Workflow:
 - Click on “Knit HTML” or do File > Knit Document. RStudio should display a preview of the resulting HTML. Also look at the file browser. You should see the R Markdown document, i.e. foo.Rmd AND the resulting HTML foo.html.
 - Congratulations, you’ve just made your first reproducible report with R Markdown.
 - You might want to commit here.
+- Push the current state to GitHub.
+- Go visit it in the browser. Should see R Markdown document and the associated HTML. The Rmd is quite readable. But the output is obviously not there. HTML is ugly.
