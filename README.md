@@ -32,7 +32,7 @@ Workflow:
 -  To add a new chunk, press *Cmd+Option+I* (*Ctrl+Alt+I* on Windows), or click the *Insert* button at the top of this document, then select *R*. 
 -  A # means a new heading
 -  ** means bold
--  * mean italic
+-  * means italic (NB: this should display one star)
 -  In both cases must have the stars at beginning and end of section you wish in bold or highlighted
 -  Use echo = FALSE if only want the OUTPUT and not the R code
 -  Then Save work!
